@@ -14,6 +14,7 @@ api_final_youtube project is an API for the Yatube social network. With the help
 - Getting group's information.
 - Getting, creating, updating, deleting comments.
 - Getting, creating user's following.
+
 [Project documentation](http://127.0.0.1:8000/redoc/)
 ###### link will open after the project is deployed
 ### *How to launch a project*
