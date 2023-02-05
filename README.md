@@ -53,7 +53,7 @@ Launсh the project:
 ```
 python3 manage.py runserver
 ```
-A token is required to use some methods in the in api_yatube project. If you already have an Yatube account, log in via the request:
+A token is required to use some methods in the in api_final_yatube project. If you already have an Yatube account, log in via the request:
 ```
 api/v1/jwt/create/
 ```
