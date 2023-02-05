@@ -41,6 +41,18 @@ python -m pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
+Go to the yatube_api app:
+```
+cd yatube_api
+```
+Perform migrations:
+```
+python3 manage.py migrate
+```
+Launсh the project:
+```
+python3 manage.py runserver
+```
 A token is required to use some methods in the in api_yatube project. If you already have an Yatube account, log in via the request:
 ```
 api/v1/jwt/create/
