@@ -25,7 +25,7 @@ Clone the repository and go to it:
 git clone git@github.com:SemenovaLiza/api_final_yatube.git
 ```
 ```
-cd api_yatube
+cd yatube_api
 ```
 Install and activate the virtual environment:
 ```
