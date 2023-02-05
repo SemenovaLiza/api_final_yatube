@@ -7,7 +7,7 @@ api_final_youtube project is an API for the Yatube social network. With the help
 - Django 3.2.16
 - django rest framework 3.12.4
 - django rest framework-simplejwt 4.7.2
-#### *The rest of the technologies can be found in the requirements.txt file*
+###### *The rest of the technologies can be found in the requirements.txt file*
 
 ### *Project features*
 - Getting, creating, updating, deleting posts.
@@ -16,7 +16,7 @@ api_final_youtube project is an API for the Yatube social network. With the help
 - Getting, creating user's following.
 
 [Project documentation](http://127.0.0.1:8000/redoc/)
-###### link will open after the project is deployed
+###### *Documentation will open after the project is deployed.*
 ### *How to launch a project*
 Using terminal change the current working directory to the location where you want the cloned directory.
 
