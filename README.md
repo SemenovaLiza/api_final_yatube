@@ -1,4 +1,4 @@
-# api_yatube
+# api_final_yatube
 ### *Description*
 api_final_youtube project is an API for the Yatube social network. With the help of the project, authorized users can change data about objects created by them, and unauthorized users can get information about these objects.
 
