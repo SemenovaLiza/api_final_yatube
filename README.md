@@ -22,7 +22,7 @@ Using terminal change the current working directory to the location where you wa
 
 Clone the repository and go to it:
 ```
-git clone git@github.com:SemenovaLiza/api_yatube.git
+git clone git@github.com:SemenovaLiza/api_final_yatube.git
 ```
 ```
 cd api_yatube
