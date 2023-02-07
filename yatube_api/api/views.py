@@ -3,7 +3,7 @@ from .permissions import AuthorOrReadOnly
 from .serializers import (CommentSerializer, GroupSerializer,
                           PostSerializer, UserSerializer, FollowSerializer)
 
-from posts.models import Comment, Group, Post, User, Follow
+from posts.models import Comment, Group, Post, User
 
 
 class UserViewSet(viewsets.ReadOnlyModelViewSet):
@@ -61,7 +61,7 @@ class FollowViewSet(mixins.CreateModelMixin, mixins.ListModelMixin,
 
     def get_queryset(self):
         user = self.request.user
-        queryset = Follow.objects.filter(user=user)
+        queryset = user.follower
         return queryset
 
     def perform_create(self, serializer):
